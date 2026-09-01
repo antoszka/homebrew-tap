@@ -13,7 +13,7 @@ cask "takecounter" do
     regex(%r{class="ver"[^>]*>\s*v?(\d+(?:\.\d+)+)\s*<}i)
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "TakeCounter.app"
 
